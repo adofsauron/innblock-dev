@@ -1,14 +1,14 @@
 
 TARGET	=	innblock
-S_SRCS 	=	$(wildcard ./*.cpp)
-OBJS	=	$(patsubst ./%.cpp, src/%.o, $(S_SRCS))
+S_SRCS 	=	$(wildcard src/*.cpp)
+OBJS	=	$(patsubst src/%.cpp, src/%.o, $(S_SRCS))
 
-CFLAGS	+=	-std=c11 -Isrc
+CFLAGS	+=	-Isrc
 CFLAGS 	+= 	-D__LINUX__
 CFLAGS	+=  -ggdb3 -O0
 USEDE	=	-DDEBUG
 
-CC		=	gcc
+CC		=	g++
 
 $(TARGET):$(OBJS)
 	$(CC) $(CFLAGS) $(USEDE) $(OBJS) -o $@
