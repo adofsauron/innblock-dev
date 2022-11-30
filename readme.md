@@ -21,8 +21,6 @@ InnoDB中索引块的内部组织一直是大家比较感兴趣并且乐于研�
 先看下 help 输出
  ```
 ------------------------------------------------------------------------
-[Author]:gaopeng [Blog]:blog.itpub.net/7728585/abstract/1/ [QQ]:22389860
-[Review]:yejinrong@zhishutang [Blog]:imysql.com [QQ]:4700963
 -------USAGE:../innblock Datafile [scan/pageno] Blocksize
 [Datafile]:innodb data file!
 [scan]:physical scan data file to find index level and index block no
