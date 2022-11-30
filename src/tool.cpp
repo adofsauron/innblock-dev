@@ -1,13 +1,7 @@
-/*************************************************************************
-  > File Name: tool.cpp
-  > Author: gaopeng QQ:22389860 all right reserved
-  > Mail: gaopp_200217@163.com
-  > Created Time: Thu 28 Sep 2017 02:01:47 PM CST
- ************************************************************************/
-
 #include <iostream>
 #include <stdlib.h>
 #include "myfine.h"
+
 using namespace std;
 
 void *aligned_malloc(size_t size, size_t alignment)
