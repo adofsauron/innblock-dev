@@ -73,8 +73,6 @@ mysql> delete from testblock where id1=1;
 [root@test]# innblock testblock.ibd scan 16
 ------------------------------------------------------------------------
 Welcome to use this block analyze tool:
-[Author]:gaopeng [Blog]:blog.itpub.net/7728585/abstract/1/ [QQ]:22389860
-[Review]:yejinrong@zhishutang [Blog]:imysql.com [QQ]:4700963
 ------------------------------------------------------------------------
 Datafile Total Size:131072
 ===INDEX_ID:248
