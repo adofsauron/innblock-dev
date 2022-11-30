@@ -1,5 +1,3 @@
 #!/bin/bash
 
-./innblock ./data/ibdata1 scan 16
-
-
+./innblock  ./data/t1.ibd  scan 16

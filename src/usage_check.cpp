@@ -63,8 +63,6 @@ int help(void)
 int usage(void)
 {
   printf("----------------------------------------------------------------------------------------------------\n");
-  printf("[Author]:gaopeng [Blog]:blog.itpub.net/7728585/abstract/1/ [QQ]:22389860\n");
-  printf("[Review]:yejinrong@zhishutang [Blog]:imysql.com [QQ]:4700963\n");
   printf("-------USAGE:../innblock Datafile [scan/pageno] Blocksize \n");
   printf("[Datafile]:innodb data file!\n");
   printf("[scan]:physical scan data file to find index level and index block no\n");
@@ -78,8 +76,6 @@ int wel(void)
 {
   printf("----------------------------------------------------------------------------------------------------\n");
   printf("Welcome to use this block analyze tool:\n");
-  printf("[Author]:gaopeng [Blog]:blog.itpub.net/7728585/abstract/1/ [QQ]:22389860\n");
-  printf("[Review]:yejinrong@zhishutang [Blog]:imysql.com [QQ]:4700963\n");
   printf("----------------------------------------------------------------------------------------------------\n");
   return 0;
 }
